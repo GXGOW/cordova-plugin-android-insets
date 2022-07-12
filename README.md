@@ -1,4 +1,4 @@
-# cordova-plugin-android-notch
+# cordova-plugin-android-insets
 
 This plugin allows to query android notch insets.
 
