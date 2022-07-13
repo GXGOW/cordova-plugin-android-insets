@@ -21,24 +21,24 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-android-notch"
+    id="cordova-plugin-android-insets"
     version="1.0.0">
-    <name>AndroidNotch</name>
-    <description>Cordova AndroidNotch Plugin</description>
+    <name>AndroidInsets</name>
+    <description>Cordova AndroidInsets Plugin</description>
     <license>MIT</license>
-    <keywords>cordova,android,notch</keywords>
+    <keywords>cordova,android,insets</keywords>
     <engines>
             <engine name="cordova" version=">=3.0.0" />
     </engines>
-    <js-module src="www/notch.js" name="notch">
-        <clobbers target="window.AndroidNotch" />
+    <js-module src="www/insets.js" name="insets">
+        <clobbers target="window.AndroidInsets" />
     </js-module>
 
     <platform name="android">
-        <source-file src="src/android/AndroidNotch.java" target-dir="src/com/tobspr/androidnotch" />
+        <source-file src="src/android/AndroidInsets.java" target-dir="src/com/gxgow/androidinsets" />
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="AndroidNotch">
-                <param name="android-package" value="com.tobspr.androidnotch.AndroidNotch" />
+            <feature name="AndroidInsets">
+                <param name="android-package" value="com.gxgow.androidinsets.AndroidInsets" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>

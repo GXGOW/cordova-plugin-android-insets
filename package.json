@@ -1,21 +1,22 @@
 {
-  "name": "cordova-plugin-android-notch",
+  "name": "cordova-plugin-android-insets",
   "version": "1.0.3",
-  "description": "Cordova Android Notch Plugin",
+  "description": "Cordova Android Insets Plugin",
   "cordova": {
-    "id": "cordova-plugin-android-notch",
+    "id": "cordova-plugin-android-insets",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tobspr/cordova-plugin-android-notch"
+    "url": "https://github.com/GXGOW/cordova-plugin-android-insets"
   },
   "keywords": [
     "cordova",
     "android",
     "notch",
+    "insets",
     "ecosystem:cordova",
     "cordova-android"
   ],
